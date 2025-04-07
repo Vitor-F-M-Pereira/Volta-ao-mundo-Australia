@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Culinária Australiana</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <style>
+    body {
+      background-color: #002868;
+      color: white;
+    }
+
+    .navbar {
+      background-color: #002868;
+    }
+
+    .navbar-nav .nav-link {
+      color: white !important;
+    }
+
+    .titulo-site {
+      font-size: 2rem;
+      margin-left: 20px;
+      color: white;
+    }
+
+    .bandeira-topo {
+      height: 60px;
+      width: auto;
+    }
+
+    .prato-img {
+      width: 100%;
+      border-radius: 8px;
+      object-fit: cover;
+      height: 250px;
+    }
+
+    .prato-box {
+      background-color: rgba(255, 255, 255, 0.95);
+      color: #002868;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 40px;
+    }
+
+    .bandeira-topo {
+      max-width: 300px;
+      width: 100%;
+      height: auto;
+      }
+  </style>
+</head>
+<body>
+
+  <div class="container-fluid py-3 text-center" style="background-color: rgba(0, 40, 104, 0.8);">
+    <img src="img/bandeira.png" alt="Bandeira da Austrália" class="bandeira-topo">
+  </div>
+  
+
+<nav class="navbar navbar-expand-lg navbar-dark border-bottom border-white">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+        <li class="nav-item"><a class="nav-link" href="culinaria.html">Culinária</a></li>
+        <li class="nav-item"><a class="nav-link" href="turismo.html">Turismo</a></li>
+        <li class="nav-item"><a class="nav-link" href="fauna.html">Fauna</a></li>
+        <li class="nav-item"><a class="nav-link" href="cultura.html">Cultura</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <div class="container text-center my-5">
+    <h1 class="mb-3">Culinária Australiana</h1>
+    <p>Conheça alguns dos pratos mais tradicionais da Austrália.</p>
+  </div>
+
+  <div class="container">
+
+    <div class="row prato-box" data-aos="fade-up">
+      <div class="col-md-6">
+        <img src="img/meat-pie.jpg" alt="Meat Pie" class="prato-img">
+      </div>
+      <div class="col-md-6 d-flex flex-column justify-content-center">
+        <h3>Meat Pie</h3>
+        <p>A famoso torta de carne australiana, recheada com carne moída, molho espesso e temperos. Presente em todos os eventos esportivos e padarias do país, literalmente um clássico!</p>
+      </div>
+    </div>
+
+    <div class="row prato-box flex-md-row-reverse" data-aos="fade-up">
+      <div class="col-md-6">
+        <img src="img/lamington.jpg" alt="Lamington" class="prato-img">
+      </div>
+      <div class="col-md-6 d-flex flex-column justify-content-center">
+        <h3>Lamington</h3>
+        <p>Um bolo quadrado coberto com calda de chocolate e coco ralado. Tradicionalmente servido com chá (algo que ficou mesmo após os britânicos partirem).</p>
+      </div>
+    </div>
+
+    <div class="row prato-box" data-aos="fade-up">
+      <div class="col-md-6">
+        <img src="img/vegemite.jpg" alt="Vegemite Toast" class="prato-img">
+      </div>
+      <div class="col-md-6 d-flex flex-column justify-content-center">
+        <h3>Vegemite Toast</h3>
+        <p>Uma iguaria amada pelos australianos: pão tostado com manteiga e uma fina camada de Vegemite (uma pasta escura, espessa e extremamente salgada feita a partir do extrato de levedura de cerveja).</p>
+      </div>
+    </div>
+
+ 
+    <div class="row prato-box flex-md-row-reverse" data-aos="fade-up">
+       <div class="col-md-6">
+        <img src="img/churrasco.jpg" alt="Churrasco Australiano" class="prato-img">
+    </div>
+      <div class="col-md-6 d-flex flex-column justify-content-center">
+        <h3>Churrasco Australiano (BBQ)</h3>
+        <p>Uma tradição social na Austrália! O churrasco australiano é praticamente um evento social, assim como no Brasil. Reúne amigos e familiares ao redor da grelha, com carnes como linguiças, bifes e até frutos do mar, geralmente acompanhado de saladas e pão.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

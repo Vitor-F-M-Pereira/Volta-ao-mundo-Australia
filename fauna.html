@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fauna Australiana</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #002868;
+      color: white;
+    }
+    .navbar {
+      background-color: #002868;
+    }
+    .navbar-nav .nav-link {
+      color: white !important;
+    }
+    .bandeira-topo {
+      max-width: 300px;
+      width: 100%;
+      height: auto;
+      }
+    .carousel-item img {
+      object-fit: contain;
+      height: 400px;
+      width: 100%;
+      border-radius: 10px;
+      background-color: #ffffff;
+    }
+    .carousel-texto {
+      background-color: white;
+      color: #002868;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container-fluid py-3 text-center" style="background-color: rgba(0, 40, 104, 0.8);">
+    <img src="img/bandeira.png" alt="Bandeira da Austrália" class="bandeira-topo">
+  </div>
+  
+  
+
+  <nav class="navbar navbar-expand-lg navbar-dark border-bottom border-white">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+          <li class="nav-item"><a class="nav-link" href="culinaria.html">Culinária</a></li>
+          <li class="nav-item"><a class="nav-link" href="turismo.html">Turismo</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#">Fauna</a></li>
+          <li class="nav-item"><a class="nav-link" href="cultura.html">Cultura</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container text-center my-5">
+    <h1 class="mb-3">Fauna Australiana</h1>
+    <p>Explore algumas das criaturas mais incríveis e únicas que habitam o território australiano.</p>
+  </div>
+
+  <div class="container mb-5">
+    <div id="carouselFauna" class="carousel slide border border-white rounded bg-white text-dark" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/canguru.jpg" class="d-block w-100" alt="Canguru">
+          <div class="carousel-texto">
+            <h5>Canguru</h5>
+            <p>O símbolo mais icônico da Austrália, os cangurus são marsupiais que se locomovem com saltos ágeis e podem ser encontrados em todo o país.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/coala.jpg" class="d-block w-100" alt="Coala">
+          <div class="carousel-texto">
+            <h5>Coala</h5>
+            <p>Fofinhos e sonolentos, os coalas vivem em eucaliptos e se alimentam exclusivamente de suas folhas. São animais solitários e muito sensíveis.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/ornitorrinco.jpg" class="d-block w-100" alt="Ornitorrinco">
+          <div class="carousel-texto">
+            <h5>Ornitorrinco</h5>
+            <p>Uma das criaturas mais curiosas do mundo: tem bico de pato, cauda de castor e põe ovos, apesar de ser um mamífero.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/casuar.jpg" class="d-block w-100" alt="Casuar">
+          <div class="carousel-texto">
+            <h5>Casuar</h5>
+            <p>Uma ave grande, colorida e territorialista. Considerado o pássaro mais perigoso do mundo, graças às suas garras afiadas.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/espinhoso.jpg" class="d-block w-100" alt="Diabo Espinhoso">
+          <div class="carousel-texto">
+            <h5>Diabo Espinhoso</h5>
+            <p>Este pequeno lagarto coberto de espinhos vive no deserto australiano e se alimenta quase exclusivamente de formigas.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselFauna" data-bs-slide="prev">
+        <i class="bi bi-chevron-left fs-1" style="color: #002868;"></i>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselFauna" data-bs-slide="next">
+        <i class="bi bi-chevron-right fs-1" style="color: #002868;"></i>
+        <span class="visually-hidden">Próximo</span>
+      </button>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

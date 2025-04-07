@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog sobre a Austrália</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+
+    body {
+      background-color: #002868;
+      color: white;
+    }
+
+    .navbar {
+      background-color: #002868;
+    }
+
+    .navbar-nav .nav-link {
+      color: white !important;
+    }
+
+    .banner {
+      background-color: #ffffff;
+      color: #002868;
+      padding: 60px 0;
+      text-align: center;
+    }
+
+    .section-link:hover {
+      color: #ff0000;
+      text-decoration: underline;
+    }
+
+    .section-img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      transition: transform 0.3s;
+    }
+
+    .section-img:hover {
+      transform: scale(1.05);
+    }
+
+    .cabecalho {
+      display: flex;
+      align-items: center;
+      background-color: #002868;
+      padding: 10px 20px;
+    }
+
+    .bandeira-topo {
+      max-width: 300px;
+      width: 100%;
+      height: auto;
+      }
+
+    .titulo-site {
+      font-size: 2rem;
+      margin-left: 20px;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container-fluid py-3 text-center" style="background-color: rgba(0, 40, 104, 0.8);">
+    <img src="img/bandeira.png" alt="Bandeira da Austrália" class="bandeira-topo">
+  </div>
+  
+  
+
+<nav class="navbar navbar-expand-lg navbar-dark border-bottom border-white">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+        <li class="nav-item"><a class="nav-link" href="culinaria.html">Culinária</a></li>
+        <li class="nav-item"><a class="nav-link" href="turismo.html">Turismo</a></li>
+        <li class="nav-item"><a class="nav-link" href="fauna.html">Fauna</a></li>
+        <li class="nav-item"><a class="nav-link" href="cultura.html">Cultura</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+    <div class="banner">
+        <div class="container">
+            <h1>Bem-vindo ao projeto volta ao mundo!<br>
+                País: Austrália!</h1>
+            <p>Austrália, o país natal dos cangurus, mundialmente conhecida por sua fauna no mínimo peculiar, também possui diversas coisas interessantes para aprender, conhecer e degustar!</p>
+            <p></p>
+        </div>
+    </div>
+
+    <div class="container mt-4">
+        <h4 class="text-center mb-4">Fatos rápidos sobre a Austrália</h4>
+        <ul class="list-unstyled text-center">
+          <li><strong>População:</strong> aproximadamente 26 milhões de habitantes</li>
+          <li><strong>Tamanho:</strong> cerca de 7,7 milhões de km²</li>
+          <li><strong>Localização:</strong> Oceania, entre os oceanos Índico e Pacífico</li>
+          <li><strong>PIB:</strong> em torno de 1,7 trilhão de dólares</li>
+          <li><strong>IDH:</strong> 0,951 (muito alto)</li>
+        </ul>
+      </div>
+      
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-3">
+                <a href="culinaria.html">
+                    <img src="img/culinaria-index.jpg" alt="Culinária Australiana" class="section-img">
+                    <h4 class="section-link text-white">Culinária</h4>
+                </a>
+                <p>Explore os sabores autênticos da Austrália, desde o tradicional "meat pie" até o famoso Vegemite.</p>
+            </div>
+            <div class="col-md-3">
+                <a href="turismo.html">
+                    <img src="img/turismo-index.jpg" alt="Turismo na Austrália" class="section-img">
+                    <h4 class="section-link text-white">Turismo</h4>
+                </a>
+                <p>Descubra destinos como a Grande Barreira de Corais e a vibrante Sydney.</p>
+            </div>
+            <div class="col-md-3">
+                <a href="fauna.html">
+                    <img src="img/fauna-index.jpg" alt="Fauna Australiana" class="section-img">
+                    <h4 class="section-link text-white">Fauna</h4>
+                </a>
+                <p>Conheça animais incríveis como cangurus, coalas e o exótico ornitorrinco.</p>
+            </div>
+            <div class="col-md-3">
+                <a href="cultura.html">
+                    <img src="img/cultura-index.jpg" alt="Cultura Australiana" class="section-img">
+                    <h4 class="section-link text-white">Cultura</h4>
+                </a>
+                <p>Descubra um pouco sobre o dia a dia e a cultura da sociedade australiana.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
